@@ -5,6 +5,13 @@
     <title>Style Guide</title>
     <link href="../stylesheet.css" rel="stylesheet" type="text/css">
     <link href="../presentation-styles.css" rel="stylesheet" type="text/css">
+
+    <!-- Dependencies -->
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
 <div class="displays-3">
@@ -30,10 +37,10 @@
     </div>
     <div class="display var-2">
         <div class="main-container">
-            <h1>Skye</h1>
+            <h1>Skye <small>8.62 ratio</small></h1>
         </div>
         <div class="container">
-            <h2>Headline</h2>
+            <h2>Headline <small>14.55 ratio</small></h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                 dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
                 ex
@@ -42,7 +49,21 @@
                 nulla pariatur. <a href="">Excepteur sint occaecat</a> cupidatat non proident, sunt in culpa qui officia deserunt
                 mollit
                 anim id est laborum.</p>
-            <a href="">TAKE ME SOMEWHERE</a>
+            <p>
+                <a href="">TAKE ME SOMEWHERE</a>
+            </p>
+            <p  style="text-align: right">
+                <button class="mdc-fab material-icons mdc-fab--mini inactive">
+                    <span class="mdc-fab__icon">
+                        flight
+                    </span>
+                </button>
+                <button class="mdc-fab material-icons mdc-fab--mini">
+                    <span class="mdc-fab__icon">
+                        flight
+                    </span>
+                </button>
+            </p>
             <div class="resolution-bar">
                 <h2><i>720p</i></h2>
             </div>
