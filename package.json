@@ -1,0 +1,23 @@
+{
+  "name": "ux-prototype",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss src/stylesheet.scss assets/stylesheet.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BoskieBuenos/ux-prototype.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BoskieBuenos/ux-prototype/issues"
+  },
+  "homepage": "https://github.com/BoskieBuenos/ux-prototype#readme",
+  "devDependencies": {
+    "node-sass": "^4.9.0"
+  }
+}

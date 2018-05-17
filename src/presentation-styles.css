@@ -9,6 +9,10 @@ body {
     box-shadow: 0px 2px 15px 1px #ccc;
 }
 
+.display-fixed-height {
+    height: 11cm;
+}
+
 .displays-1 {
     margin-left: calc(50% - 3.1cm);
     display: inline-block;
