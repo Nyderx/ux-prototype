@@ -10,11 +10,13 @@ body {
 }
 
 .display-fixed-height {
-    height: 11cm;
+    /*height: 11cm;*/
+    height: 1280px;
 }
 
 .displays-1 {
-    margin-left: calc(50% - 3.1cm);
+    /*margin-left: calc(50% - 3.1cm);*/
+    margin-left: calc(50% - 360px);
     display: inline-block;
 }
 
@@ -29,7 +31,8 @@ body {
 }
 
 .display {
-    width: 6.2cm;
+    /*width: 6.2cm;*/
+    width: 720px;
     float: left;
 }
 

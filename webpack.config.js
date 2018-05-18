@@ -7,6 +7,7 @@ module.exports = [{
     output: {
         // This is necessary for webpack to compile
         // But we never use style-bundle.js
+        path: path.resolve(__dirname, 'assets'),
         filename: 'style-bundle.js',
     },
     module: {
@@ -16,7 +17,7 @@ module.exports = [{
                 {
                     loader: 'file-loader',
                     options: {
-                        name: 'assets/stylesheet.css',
+                        name: 'stylesheet.css',
                     },
                 },
                 {loader: 'extract-loader'},
