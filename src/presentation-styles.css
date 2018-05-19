@@ -33,7 +33,7 @@ body {
 }
 
 .map-select-background {
-    background-image: url('./pictures/continent.png');
+    background-image: url('./pictures/continent-markers.png');
     background-size: cover;
     background-position: center;
 }
