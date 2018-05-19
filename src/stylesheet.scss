@@ -5,7 +5,7 @@
 //$mdc-theme-primary: #16d9e3; // origin
 $mdc-theme-primary: #24D0FB;
 $mdc-theme-secondary: #fb8b24;
-$mdc-theme-background: #fff;
+$mdc-theme-background: #FBFCF9;
 $mdc-theme-surface: #fff;
 $mdc-theme-on-primary: #fff;
 $mdc-theme-on-secondary: #fff;
@@ -41,7 +41,7 @@ body {
 }
 
 .container.main-container {
-  color: #1C2833;
+  color: #1C2833; // TODO
 
   /*background-color: var(--main-color);*/
   background-image: var(--main-color-gradient);
@@ -57,7 +57,7 @@ body {
   position: relative;
   width: 100%;
   min-height: 1px;
-  background-color: var(--secondary-color);
+  background-color: $mdc-theme-background;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -90,4 +90,13 @@ button.mdc-fab.inactive {
 
 .mdc-text-field--with-leading-icon.mdc-text-field--fullwidth .mdc-text-field__input {
   padding-left: 48px !important;
+}
+
+/* App */
+.title-filter-container {
+  background-color: $mdc-theme-background;
+  box-shadow: 0px 2px 20px 20px #FBFCF9;
+
+  display: inline-block;
+  width: 100%;
 }
